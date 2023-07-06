@@ -1,0 +1,22 @@
+{
+    "name": "DocuSeal",
+    "description": "DocuSeal is a self-hosted DocuSign alternative for electronic document filling and signing.",
+    "stack": "container",
+    "keywords": [
+      "pdf",
+      "documents"
+    ],
+    "website": "https://www.docuseal.co/",
+    "repository": "https://github.com/docusealco/docuseal",
+    "logo": "https://avatars.githubusercontent.com/u/138379721?s=200",
+    "success_url": "/",
+    "env": {
+      "SECRET_KEY_BASE": {
+        "generator": "secret"
+      }
+    },
+    "addons": [
+      "heroku-postgresql"
+    ],
+    "image": "docusealco/docuseal"
+  }
